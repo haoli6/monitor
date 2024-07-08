@@ -79,7 +79,6 @@ class Ui_Dialog(object):
         self.title.setAlignment(QtCore.Qt.AlignCenter)
         self.title.setObjectName("title")
 
-        # Add button for selecting video file
         self.selectButton = QtWidgets.QPushButton(Dialog)
         self.selectButton.setGeometry(QtCore.QRect(10, 10, 151, 41))
         self.selectButton.setObjectName("selectButton")
